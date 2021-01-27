@@ -312,6 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 811149920}
   - component: {fileID: 811149919}
+  - component: {fileID: 811149921}
   m_Layer: 0
   m_Name: Loader
   m_TagString: Untagged
@@ -326,7 +327,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811149918}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0df648a362df45542a265325dbfcba72, type: 3}
   m_Name: 
@@ -348,6 +349,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &811149921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811149918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7917d2988a9c4244a896de33befa95d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assetName: BundledSpriteObject
+  bundleName: testbundle
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
